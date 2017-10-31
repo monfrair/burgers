@@ -1,12 +1,16 @@
 ### Schema
 
-CREATE DATABASE cat_db;
-USE cat_db;
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
-CREATE TABLE cats
+-- Create a burgers table with the required fields --
+CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
-	PRIMARY KEY (id)
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+  	ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  	dt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  	PRIMARY KEY(id)
 );
+
