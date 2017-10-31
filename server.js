@@ -25,4 +25,8 @@ var routes = require("./controllers/catsController.js");
 
 app.use("/", routes);
 
-app.listen(port);
+//app.listen(port);
+
+app.listen(PORT, function () {
+    console.log("App listening on PORT: " + PORT);
+});
