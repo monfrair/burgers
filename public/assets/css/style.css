@@ -1,19 +1,39 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+
+
 }
 
 .label {
     font-weight: bold;
+    background-color: white;
+
 }
 
 .create-update-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
+    background: white;
+
+
 }
 
 .form-group {
     margin-bottom: 5px;
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: 32%;
+
+}
+
+body {
+    text-align: center;
+    color: black;
+
 }
